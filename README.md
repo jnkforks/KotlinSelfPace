@@ -72,7 +72,7 @@ Now, make a new branch by doing ```$ git checkout -b branch-name```, where branc
 Do your work, then do ```$ git add ``` & ```$ git commit``` before making push make sure you have pulled the changes 
 at master by doing :
 
-```$ git pull origin master --rebase```
+```$ git pull upstream master --rebase```
 
 Push the branch to the Github by ```$ git push origin branch-name```, Come back to your forked repository and 
 click on green color button namely, ```Compare & Make Pull Request```. Launch the PR(Pull Request) and wait for it to 

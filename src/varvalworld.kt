@@ -35,9 +35,11 @@
 
 fun main() { // This is main function. Like Java but we don't have to put it inside the class.
 
+    /* About val */
+
     // Kotlin is smart to understand the type of variable i.e, Int, String..
     val variable = 5 // The use of ; is optional in Kotlin.
-    val variable1:String = "This is a string." // Declaring variable with type explicitly.
+    val variable1: String = "This is a string." // Declaring variable with type explicitly.
 
     println(variable1) // prints-> This is a string.
 
@@ -52,4 +54,31 @@ fun main() { // This is main function. Like Java but we don't have to put it ins
     // Let's try to change the value of variable, uncomment the below line and click on run.
     //variable = 6 // We get, Error:(52, 5) Kotlin: Val cannot be reassigned
 
+    /* About var */
+    var variable3 = 4 // Kotlin will take it as Int
+    var variable4: String = "This is editable string."
+
+    // Let print the value of variable3
+    println(variable3) // prints-> 4
+
+    // Now, let's change the value of variable3 to 6 from 4.
+    variable3 = 6
+
+    println(variable3) // prints-> 6
+    println(variable4) // prints-> This is editable string.
+
+    // This way you can change value of variable4
+    variable4 += " And now, we added new data."
+
+    // Let's now print the variable4
+    println(variable4) // prints-> This is editable string. And now, we added new data.
+
+    /*
+     * Now, you see the difference between val and var!
+     * We will play later with variable and it's types too.
+     *
+     * Secondly, we will be looking how to declare null type variable because sometimes we need null to
+     * be stored in variable. In the next part!
+     *
+     */
 }
