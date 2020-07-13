@@ -48,6 +48,7 @@ _**Note:** Do not try to change files in src. You have `practice` package for do
 ## Table of Contents
 
 - [var & val](/src/first_varvalworld)
+- [Data Types](/src/data_types)
 
 > More Coming Soon 😉
 
