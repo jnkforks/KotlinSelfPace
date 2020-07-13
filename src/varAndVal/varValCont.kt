@@ -22,7 +22,7 @@
 
 /* Okay, All the contents (such as classes and functions) of the source file are contained by the package declared.
    There is an advantage of package that we will be discussing in future. */
-package first_varvalworld
+package varAndVal
 
 /*
  * Welcome back, So in this we will be talking about declaring variable as null, if you are thinking why we have to do

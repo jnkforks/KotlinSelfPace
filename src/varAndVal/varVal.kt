@@ -21,7 +21,7 @@
  */
 
 // Ignore this 'package first_varvalworld' for now! we will discuss it in later part
-package first_varvalworld
+package varAndVal
 
 /*
  * Hey, let's start with the understanding of how to declare variables in Kotlin.

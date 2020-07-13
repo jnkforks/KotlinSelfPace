@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-package data_types
+package dataTypes
 
 /*
  * The data types in Kotlin are of 5 types, namely:
