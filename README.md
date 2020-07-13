@@ -6,10 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/sagargkr/KotlinSelfPace?color=black&logo=stars)](https://github.com/sagargkr/KotlinSelfPace/stargazers)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sagargkr/KotlinSelfPace?color=black)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-black.svg)](https://github.com/sagargkr/KotlinSelfPace/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](http://makeapullrequest.com)
-![Git](https://badgen.net/badge/icon/git?color=black&icon=git&label)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](https://github.com/sagargkr/KotlinSelfPace/pulls)
 ![Watchers Github](https://badgen.net/github/watchers/sagargkr/KotlinSelfPace?color=black)
-[![Twitter](https://img.shields.io/twitter/url?logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsagargkr)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsagargkr%2FKotlinSelfPace)
+[![Twitter](https://img.shields.io/twitter/url?logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fsagargkr)](https://twitter.com/intent/tweet?text=Checkout:&url=https%3A%2F%2Fgithub.com%2Fsagargkr%2FKotlinSelfPace)
 ![Twitter Follow](https://img.shields.io/twitter/follow/sagargkr?label=Follow&style=social)
 ![GitHub followers](https://img.shields.io/github/followers/sagargkr?style=social)
 
@@ -45,6 +44,12 @@ have to pull the `master` again with time to your local `master`. For this, exec
 > After that the new changes will be there in the project.
 
 _**Note:** Do not try to change files in src. You have `practice` package for doing tests and any trials._ 
+
+## Table of Contents
+
+- [var & val](/src/first_varvalworld)
+
+> More Coming Soon 😉
 
 ## Contributing to Project
 
@@ -82,4 +87,4 @@ be reviewed and merged.
 For now this repo will get updates regularly or as soon as I will be getting to add new things about Kotlin.
 
 #
-Made with :heart: by [Sagar Gupta](https://githhub.com/sagargkr)
+Made with :heart: by [Sagar Gupta](https://github.com/sagargkr)

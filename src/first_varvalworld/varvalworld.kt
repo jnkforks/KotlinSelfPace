@@ -20,6 +20,9 @@
  * SOFTWARE.
  */
 
+// Ignore this 'package first_varvalworld' for now! we will discuss it in later part
+package first_varvalworld
+
 /*
  * Hey, let's start with the understanding of how to declare variables in Kotlin.
  * If you're beginner with language then maybe it will be little difficult but if you came from languages like
