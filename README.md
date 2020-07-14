@@ -49,7 +49,7 @@ _**Note:** Do not try to change files in src. You have `practice` package for do
 
 - [var & val](src/varAndVal)
 - [Data Types](src/dataTypes)
-- [Control FLow](src/controlFlow)
+- [Control Flow](src/controlFlow)
 
 > More Coming Soon 😉
 

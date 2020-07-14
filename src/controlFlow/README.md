@@ -9,6 +9,9 @@ Types of control flow that we are covering are:
     - supports commonly used loops like `for`, `while`, `do-while`
     - can be an `iterator`
 - Ranges
+    - `0..3` - Iterates over a range starting from 0 up to 3 (inclusive)
+    - `2..8 step 2` - Iterates over a range with a custom increment step for consecutive elements
+    - `9 downTo 0` - Iterates over a range in reverse order
 - Conditional Expressions and Equality Checks
     - `==` used for structural comparison
     - `===` used for referential comparison
