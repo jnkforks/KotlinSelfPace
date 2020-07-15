@@ -36,22 +36,71 @@ package controlFlow
 
 fun main() {
 
-    // using .. for having inclusive range
+    // Using .. for having inclusive range
     for (i in 1..9) {
         print("$i ") // prints -> 1 2 3 4 5 6 7 8 9
         // Here, in order to print in same line with space we used print with string template
     }
     println()
 
-    // using .. with steps for custom increment steps
+    // Using .. with steps for custom increment steps
     for (i in 2..8 step 2) {
         print("$i ") // prints -> 2 4 6 8
     }
     println()
 
-    // using downTo for reverse oder range
+    // Using downTo for reverse oder range
     for (i in 4 downTo 1) {
         print("$i ") // prints -> 4 3 2 1
+    }
+    println()
+
+    // Looping using characters with steps
+    for (i in 'a'..'z' step 2) {
+        print(i) // prints -> acegikmoqsuwy
+    }
+    println()
+
+    // Another use of in
+    if (6 !in 7..10) {
+        println("6 not in not in the range") // prints -> 6 not in not in the range
+    }
+
+    if (5 in 1..6) {
+        println("5 is in the range") //prints -> 5 is in the range
+    }
+
+    val x = 5..10 // We can also store a range in a variable
+
+    if (4 !in x) {
+        println("4 is not available in given range x")
+        // prints -> 4 is not available in given range x
+    }
+
+    var cake = 0
+
+    // while loop
+    while (cake < 5) {
+        print(cake) // prints -> 01234
+        cake++
+    }
+    println()
+
+    // do-while loop
+    do {
+        cake--
+        print(cake) // prints -> 43210
+    } while (cake >= 1)
+    println()
+
+    // Let's talk about when now
+
+    cake = 1 // Try changing the value of cake here and run the program
+
+    when (cake) {
+        0 -> println("No cake sorry!")
+        1 -> println("One cake available hurry!")
+        else -> println("Buy as much as you want")
     }
 
 }
